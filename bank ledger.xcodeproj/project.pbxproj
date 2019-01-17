@@ -14,6 +14,7 @@
 		41D2969421ED3BBD00C2217C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D2969221ED3BBD00C2217C /* LaunchScreen.storyboard */; };
 		41D2969F21ED3BBD00C2217C /* bank_ledgerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D2969E21ED3BBD00C2217C /* bank_ledgerTests.swift */; };
 		41D296AA21ED3BBE00C2217C /* bank_ledgerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D296A921ED3BBE00C2217C /* bank_ledgerUITests.swift */; };
+		41FEA24A21F12FCE00A460B9 /* AddNewAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FEA24921F12FCE00A460B9 /* AddNewAccount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		41D296A521ED3BBD00C2217C /* bank ledgerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bank ledgerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D296A921ED3BBE00C2217C /* bank_ledgerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bank_ledgerUITests.swift; sourceTree = "<group>"; };
 		41D296AB21ED3BBE00C2217C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41FEA24921F12FCE00A460B9 /* AddNewAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewAccount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		41D2968821ED3BBD00C2217C /* bank ledger */ = {
 			isa = PBXGroup;
 			children = (
+				41FEA24921F12FCE00A460B9 /* AddNewAccount.swift */,
 				41D2968921ED3BBD00C2217C /* AppDelegate.swift */,
 				41D2968B21ED3BBD00C2217C /* ViewController.swift */,
 				41D2968D21ED3BBD00C2217C /* Main.storyboard */,
@@ -188,7 +191,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Christopher Cole";
 				TargetAttributes = {
 					41D2968521ED3BBD00C2217C = {
@@ -261,6 +264,7 @@
 			files = (
 				41D2968C21ED3BBD00C2217C /* ViewController.swift in Sources */,
 				41D2968A21ED3BBD00C2217C /* AppDelegate.swift in Sources */,
+				41FEA24A21F12FCE00A460B9 /* AddNewAccount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +333,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -336,6 +341,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -386,6 +392,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -393,6 +400,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
