@@ -9,10 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var accounts: [String] = []
 
+    @IBOutlet weak var accountsTableView: UITableView!
+    
+    @IBAction func addAccount(_ sender: Any) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        title = "Accounts"
+        accountsTableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,5 +32,24 @@ class ViewController: UIViewController {
     @IBAction func btnAddNewAccount(_ sender: UIButton) {
     }
 
+}
+
+extension ViewController: UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView,
+                   numberOfRowsInSection section: Int) -> Int {
+        return accounts.count
+    }
+    
+    func tableView(_ tableView: UITableView,
+                   cellForRowAt indexPath: IndexPath)
+        -> UITableViewCell {
+            
+            let cell =
+                tableView.dequeueReusableCell(withIdentifier: "Cell",
+                                              for: indexPath)
+            cell.textLabel?.text = accounts[indexPath.row]
+            return cell
+    }
 }
 
