@@ -15,6 +15,7 @@
 		41D2969F21ED3BBD00C2217C /* bank_ledgerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D2969E21ED3BBD00C2217C /* bank_ledgerTests.swift */; };
 		41D296AA21ED3BBE00C2217C /* bank_ledgerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D296A921ED3BBE00C2217C /* bank_ledgerUITests.swift */; };
 		41FEA24A21F12FCE00A460B9 /* AddNewAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FEA24921F12FCE00A460B9 /* AddNewAccount.swift */; };
+		41FEA24C21F2595100A460B9 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FEA24B21F2595100A460B9 /* Account.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		41D296A921ED3BBE00C2217C /* bank_ledgerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bank_ledgerUITests.swift; sourceTree = "<group>"; };
 		41D296AB21ED3BBE00C2217C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41FEA24921F12FCE00A460B9 /* AddNewAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewAccount.swift; sourceTree = "<group>"; };
+		41FEA24B21F2595100A460B9 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				41D2969021ED3BBD00C2217C /* Assets.xcassets */,
 				41D2969221ED3BBD00C2217C /* LaunchScreen.storyboard */,
 				41D2969521ED3BBD00C2217C /* Info.plist */,
+				41FEA24B21F2595100A460B9 /* Account.swift */,
 			);
 			path = "bank ledger";
 			sourceTree = "<group>";
@@ -196,15 +199,18 @@
 				TargetAttributes = {
 					41D2968521ED3BBD00C2217C = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					41D2969921ED3BBD00C2217C = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 41D2968521ED3BBD00C2217C;
 					};
 					41D296A421ED3BBD00C2217C = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 41D2968521ED3BBD00C2217C;
 					};
@@ -263,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41D2968C21ED3BBD00C2217C /* ViewController.swift in Sources */,
+				41FEA24C21F2595100A460B9 /* Account.swift in Sources */,
 				41D2968A21ED3BBD00C2217C /* AppDelegate.swift in Sources */,
 				41FEA24A21F12FCE00A460B9 /* AddNewAccount.swift in Sources */,
 			);
@@ -439,7 +446,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "supportcast.bank-ledger";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -453,7 +460,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "supportcast.bank-ledger";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -468,7 +475,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "supportcast.bank-ledgerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bank ledger.app/bank ledger";
 			};
@@ -484,7 +491,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "supportcast.bank-ledgerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bank ledger.app/bank ledger";
 			};
@@ -499,7 +506,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "supportcast.bank-ledgerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "bank ledger";
 			};
@@ -514,7 +521,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "supportcast.bank-ledgerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "bank ledger";
 			};
